@@ -8,6 +8,4 @@ pipeline:
     secrets:
     - docker_username
     - docker_password
-    when:
-      event: [push]
-      branch: [master]
+  branches: [master]
