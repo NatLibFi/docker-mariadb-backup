@@ -8,4 +8,4 @@ pipeline:
     secrets:
     - docker_username
     - docker_password
-  branches: [master]
+branches: [master]
