@@ -1,4 +1,9 @@
-# Docker image for periodically dumping databases from mariadb containers
+# Docker image for dumping databases from mariadb containers
+
+To use, run this container and then:
+```
+docker exec <CONTAINER> /bin/do-backup.sh
+```
 
 ## License and copyright
 
