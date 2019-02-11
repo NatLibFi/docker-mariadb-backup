@@ -2,7 +2,7 @@
 
 To use, run this container and then:
 ```
-docker exec <CONTAINER> /bin/do-backup.sh
+docker exec <CONTAINER> /do-backup.sh
 ```
 
 ## License and copyright
